@@ -1,28 +1,122 @@
-#title {
+body {
+    background-color: #b8b894;
+    background-image: url("https://i.imgur.com/xH9JsXS.jpeg");
+    background-position: center;
+    background-size: cover; 
+  }
+  #title {
     text-align: center;
-    font-size:50px;
-    margin-top: 8px;
-    margin-bottom: -15px;
+    color: #b30000
   }
-  #title-cap {
+  #description {
     text-align: center;
-    position: relative;
-    color: #999966;
-    font-size: 18px;
-    padding-bottom: 5px;
+    margin-top: -20px;
+    color: #002699
   }
-  #title-box {
-    background-color: #ebebe0;
+  #survey-form {
+    background-color: rgba(0, 26, 102, 0.7);
+    color: white;
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%; 
+    padding-bottom: 2%;
   }
-  body {
-    background-color: #f5f5f0;
-  }
-  #img-div {
-    text-align: center;
-  }
-  #image {
-    max-width: 100%;
-    height: auto;
+  #name-label {
+    font-size: 20px;
+    width: 85%;
     display: block;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -1.5%;
+  }
+  #email-label {
+    font-size: 20px;
+    width: 85%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -1.5%;
+  }
+  #number-label {
+    font-size: 20px;
+    width: 85%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -1.5%;
+  }
+  #form-text {
+    font-size: 20px;
+    margin-bottom: 1%;
+    width: 85%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #dropdown {
+    font-size: 17px;
+    width: 85%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #dropdown-label {
+    font-size: 20px;
+    width: 85%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -1.5%;
+  }
+  #name {
+    font-size: 17px;
+    width: 85%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #email {
+    font-size: 17px;
+    width: 85%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #number {
+    font-size: 17px;
+    width: 85%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #radio {
+    font-size: 17px;
+    margin-left: 8%
+  }
+  #radio-label {
+    font-size: 17px;
+  }
+  #addcomm-label {
+    font-size: 20px;
+    width: 85%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;  
+  }
+  #addcomm {
+    font-size: 17px;
+    width: 85%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #submit {
+    background-color: #cc3300;
+    font-size: 20px;
+    color: white;
+    width: 85.5%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;  
+    padding: 0.5%
   }

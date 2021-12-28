@@ -4,27 +4,59 @@
         <link rel="stylesheet" href="style.css">
     </head>
   <body>
-    <main id="main">
-      <div id="title-box">
-        <h1 id="title">Umar II</h1>
-        <p id="title-cap">Great Muslim Caliph</p>
+    <h1 id="title">BMW M8 Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve our product</p>
+    <form id="survey-form">
+      <div id="suf">
+      <label id="name-label" for="name">Name</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+      <label id="email-label" for="email">Email</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email"required><br><br>
+      <label id="number-label" for="number">Age (Optional)</label><br>
+      <input type="number" id="number" name="number" min="18" max="130" placeholder="Age"><br><br>
+      <label id="dropdown-label" for="dropdown">Select your favorite M8 model</label><br>
+      <select name="dropdown" id="dropdown">
+        <option disabled selected value>Select your favorite model</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+        <option value="2019">2019</option>
+        <option value="2021">2018</option>
+        <option value="other">Other</option>
+      </select>
+      <p id="form-text">What is your experience of M8</p>
+      <input id="radio" type="radio" name="experience" value="excellent">
+      <label id="radio-label" for="excellent">Excellent</label><br>
+      <input id="radio" type="radio" name="experience" value="good">
+      <label id="radio-label" for="good">Good</label><br>
+      <input id="radio" type="radio" name="experience" value="poor">
+      <label id="radio-label" for="poor">Poor</label><br>
+      <p id="form-text">Would you recommend M8 to a friend</p>
+      <input id="radio" type="radio" name="recommend" value="sure">
+      <label id="radio-label" for="sure">Sure</label><br>
+      <input id="radio" type="radio" name="recommend" value="maybe">
+      <label id="radio-label" for="maybe">Maybe</label><br>
+      <input id="radio" type="radio" name="recommend" value="defnot">
+      <label id="radio-label" for="defnot">Definitely Not</label><br>
+      <p id="form-text">Where do you think that further improvement is needed</p>
+      <input id="radio" type="checkbox" name="suspension" value="suspension">
+      <label id="radio-label" for="suspension">Suspension</label><br>
+      <input id="radio" type="checkbox" name="interior" value="interior">
+      <label id="radio-label" for="interior">Interior</label><br>
+      <input id="radio" type="checkbox" name="transmission" value="transmission">
+      <label id="radio-label" for="transmission">Transmission</label><br>
+      <input id="radio" type="checkbox" name="engine" value="engine">
+      <label id="radio-label" for="engine">Engine</label><br>
+      <input id="radio" type="checkbox" name="comfort" value="comfort">
+      <label id="radio-label" for="comfort">Comfort</label><br>
+      <input id="radio" type="checkbox" name="design" value="design">
+      <label id="radio-label" for="design">Design</label><br>
+      <input id="radio" type="checkbox" name="trunkspace" value="trunkspace">
+      <label id="radio-label" for="trunkspace">Trunk Space</label><br>
+      <input id="radio" type="checkbox" name="airconditioning" value="airconditioning">
+      <label id="radio-label" for="airconditioning">Airconditioning</label><br>
+      <input id="radio" type="checkbox" name="safety" value="safety">
+      <label id="radio-label" for="safety">Safety</label><br><br>
+      <label id="addcomm-label" for="addcomm">Additional comments</label><br>
+      <textarea id="addcomm" name="addcomm" rows="8" cols="100" placeholder="Any additional feedback you would like to share"></textarea><br>
       </div>
-      <br>
-      <div id="img-div">
-        <figure>
-          <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/%D8%B9%D9%85%D8%B1_%D8%A8%D9%86_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2.png/220px-%D8%B9%D9%85%D8%B1_%D8%A8%D9%86_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2.png" alt="Umar II">
-          <figcaption id="img-caption">Umar ibn Abd al-Aziz</figcaption>
-        </figure>
-      </div>
-      <br>
-      <div id="tribute-info">
-        <p>Umar ibn Abd al-Aziz (Arabic: عمر بن عبد العزيز‎, romanized: ʿUmar ibn ʿAbd al-ʿAzīz; 2 November 682 – c. 5 February 720), commonly known as Umar II (عمر الثاني), was the eighth Umayyad caliph. He made various significant contributions and reforms to the society, and he has been described as "the most pious and devout" of the Umayyad rulers and was often called the first Mujaddid and sixth righteous caliph of Islam.</p>
-        <p>He was also a cousin of the former caliph, being the son of Abd al-Malik's younger brother, Abd al-Aziz. He was also a matrilineal great-grandson of the second caliph, Umar ibn Al-Khattab.</p>
-        <p>Surrounded with great scholars, he is credited with having ordered the first official collection of Hadiths and encouraged education to everyone. He also sent out emissaries to China and Tibet, inviting their rulers to accept Islam. At the same time, he remained tolerant with non-Muslim citizens. According to Nazeer Ahmed, it was during the time of Umar ibn Abd al-Aziz that the Islamic faith took roots and was accepted by huge segments of the population of Persia and Egypt.</p>
-        <p>Militarily, Umar is sometimes deemed a pacifist, since he ordered the withdrawal of the Muslim army in places such as Constantinople, Central Asia and Septimania despite being a good military leader. However, under his rule the Umayyads conquered many territories from the Christian kingdoms in Spain.</p>
-      </div>
-      
-      <p>If you want to read more about this exceptional Muslim Caliph please refer to his <a id="tribute-link" href=https://en.wikipedia.org/wiki/Umar_II target="_blank">wikipedia entry.</a></p>
-    </main>
-  </body>
-</html>
+      <button type="submit" id="submit">Submit</button>
